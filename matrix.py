@@ -1,0 +1,13 @@
+import numpy
+matrix1=numpy.matrix([[1,2,3],[1,1,1],[1,1,1]])
+matrix2=numpy.matrix([[1,0,0],[0,1,0],[0,0,1]])
+print("matrix1=\n",matrix1)
+print("matrix2=\n",matrix2)
+matrix3=numpy.add(matrix1,matrix2)
+matrix4=numpy.subtract(matrix1,matrix2)
+matrix5=numpy.multiply(matrix1,matrix2)
+matrix6=numpy.transpose(matrix1)
+print("added matrices",matrix3)
+print("the diffrence is",matrix4)
+print("the product",matrix5)
+print("the transpose is",matrix6)
